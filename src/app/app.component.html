@@ -1,0 +1,59 @@
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <a class="links">
+            <img src="assets/images/icons8-hospital.png">
+            <b id="icon1">Hospital</b>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link links" routerLink="/doctor" href="#">Doctor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link links" routerLink="/patient" href="#">Patient</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <router-outlet></router-outlet>
+    <img id="image1" src="assets/images/Hospital.png" alt="Hospital">
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <a class="links">
+                        <img src="assets/images/icons8-hospital.png">
+                        <b id="icon1">Hospital</b>
+                    </a>
+                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+                </div>
+                <div class="col-md-2">
+                    <a class="links" href="#">About</a><br>
+                    <a class="links" href="#">Help</a>
+                </div>
+
+                <div class="col-md-2">
+                    <a class="links" routerLink="/doctor">Doctor</a>
+                </div>
+
+                <div class="col-md-2">
+                    <a class="links" routerLink="/patient">Patient</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content">
+            <p>&copy; 2020. All Rights Reserved. Designed by <strong>Pramod.</strong> Demo Images:
+                <a href="#">pngitem.com</a>
+            </p>
+        </div>
+    </footer>
+
+</div>

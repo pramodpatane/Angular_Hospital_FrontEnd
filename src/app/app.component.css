@@ -1,0 +1,33 @@
+#icon1 {
+    text-transform: uppercase;
+    color: brown;
+    font-size: large;
+    padding: 5px;
+}
+
+#image1 {
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background: lightgrey;
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.links {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.footer-content {
+    background: black;
+    color: white;
+    width: 100%;
+    height: auto;
+}
